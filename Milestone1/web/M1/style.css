@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2018, 6:19:18 PM
+    Author     : Marci
+*/
+
+*{
+    font-family: Arial;
+}
+
+a:link, a:visited{
+    font-style: initial;
+    color: black;
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+header, aside, content, footer{
+    border-style: solid;
+}
+
+h1.hmain{
+    margin: 0px;
+    font-size: 48px;
+}
+
+header{
+    padding: 24px;
+    border-width: 0px;
+    background-color: #DD3030;
+    color: white;
+    margin: 0px;
+}
+
+div.main{
+    padding: 12px;
+    float: left;
+}
+
+div.left, div.right{
+    padding: 12px;
+    background-color: white;
+}
+
+.main:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+div.left{
+    width: 30%;
+}
+div.right{
+    width: 70%;
+}
+
+footer{
+    float: bottom;
+}
+
+label.search::before {
+    content: '\A';
+    white-space: pre;
+}
+
+ul.authlist{
+    list-style-image: url(user-small.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
